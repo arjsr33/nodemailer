@@ -16,8 +16,8 @@ async function main() {
 
   // Setting up email data
   let mailOptions = {
-    from: `"Arjun K" <${process.env.EMAIL}>`, //Add your Name Here
-    to: 'arjunkolz07@gmail.com', // Enter the To Address here
+    from: `"XXXXX" <${process.env.EMAIL}>`, //Add your Name Here
+    to: 'XXXXXX', // Enter the To Address here
     subject: 'NodeMailer Email', // Subject line
     text: 'This is a Nodemailer Generated Email', // Plain text body
     html: '<b>This is a Nodemailer Generated Email</b>', // HTML body
